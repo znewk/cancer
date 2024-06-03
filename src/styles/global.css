@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'SF Pro Regular';
+    src: url('../../public/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Medium';
+    src: url('../../public/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Bold';
+    src: url('../../public/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #F7FAFC;
+    color: #2D3748;
+    font-family: 'SF Pro Regular';
+}

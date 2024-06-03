@@ -1,0 +1,112 @@
+.header {
+    background-color: white;
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.2);
+    font-family: "SF Pro Bold";
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирование содержимого */
+    font-size: 48px;
+    z-index: 2 !important;
+    position: relative;
+}
+
+.headerIcon {
+    margin-right: 10px; /* Создаем отступ справа от картинки */
+}
+
+.headerText {
+    text-align: center; /* Центрирование текста по центру */
+}
+
+.background{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #3182CE;
+    height: 300px;
+    background-image: url('../../../public/1457718455276\ 2.png');
+    background-position: center;
+    background-size: cover;
+    /* z-index: 0; */
+}
+
+.form{
+    background-color: white;
+    padding: 15px 30px 30px 15px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.2);
+    font-family: "SF Pro Bold";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2 !important;
+    position: relative;
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-family: "SF Pro Bold";
+}
+
+.inputBody{
+    display: flex;
+    flex-direction: column;
+    width: 49%; 
+    margin-bottom: 15px;
+}
+.label{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    display: block;
+    font-family: "SF Pro Regular";
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.prediction{
+    font-size: 72px;
+    margin: 0;
+    /* margin-left: 10px; */
+}
+.predictionProcent{
+    margin-left: 15px;
+}
+
+.predictionProcent > span{
+    font-size: 24px;
+}
