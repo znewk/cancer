@@ -8,6 +8,8 @@ import { Toast } from 'primereact/toast';
 import axios from 'axios';
 import { Knob } from 'primereact/knob';
 
+
+
 const Index = () => {
     const [inputs, setInputs] = useState({
         input1: "",
@@ -26,7 +28,7 @@ const Index = () => {
         input14: "",
         input15: ""
     });
-
+    console.log('inputs')
     const [data, setData] = useState({
 
     })
